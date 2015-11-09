@@ -1,2 +1,2 @@
 # cortex
-A responsive template
+A responsive template.
