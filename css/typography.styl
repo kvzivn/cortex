@@ -1,0 +1,56 @@
+FONTSTACK = 'Open Sans', Helvetica, Arial, sans-serif;
+
+FONT = {
+    stack: FONTSTACK,
+    size: 16px,
+    weight: 400,
+    lightWeight: 300,
+    ratio: 4/3, // A perfect fourth
+    lineHeight: 4/3
+}
+
+// Modular scale calculated with to http://www.modularscale.com/?16&px&1.333&web&text
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+    line-height: FONT.lineHeight;
+}
+
+p, a, li {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: FONT.lineHeight;
+}
+
+p {
+    margin-bottom: 0.938rem;
+}
+
+h1, .h1 {
+    font-size: 3.160rem;
+    margin-bottom: 1.438rem;
+}
+
+h2, .h2 {
+    font-size: 2.370rem;
+    margin-bottom: 1.313rem;
+}
+
+h3, .h3 {
+    font-size: 1.778rem;
+    margin-bottom: 1.375rem;
+}
+
+h4, .h4 {
+    font-size: 1.333rem;
+    margin-bottom: 1.250rem;
+}
+
+h5, .h5 {
+    font-size: .75rem;
+    margin-bottom: .875rem;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+}
