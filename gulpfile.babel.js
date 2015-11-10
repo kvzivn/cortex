@@ -1,3 +1,5 @@
+'use strict';
+
 import gulp from 'gulp';
 import stylus from 'gulp-stylus';
 import browserSync from 'browser-sync';
