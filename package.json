@@ -1,0 +1,16 @@
+{
+  "name": "cortex",
+  "version": "1.0.0",
+  "description": "Elements Interactive front-end assignment.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvzivn/cortex.git"
+  },
+  "author": "Kevin Ivan <hello@kevinivan.com> (http://kevinivan.com)",
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.1.0"
+  }
+}
